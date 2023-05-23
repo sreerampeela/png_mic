@@ -7,7 +7,7 @@ import argparse
 # Creating arguments
 parser = argparse.ArgumentParser()
 parser.add_argument("--query", help="The name of query sequence in the alignment file")
-parser.add_argument("--template", help="The name of template(s) in the alignment file.For separate multiple templates with commas(,)")
+parser.add_argument("--template", help="The name of template(s) in the alignment file. Separate multiple template names with commas(,)")
 parser.add_argument("--pirfile", help="The name of the alignment file")
 parser.add_argument("--nmodels", help="Number of models to generate")
 args = parser.parse_args() # to parse the arguments
