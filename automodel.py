@@ -1,4 +1,4 @@
-# The script for fully automated comparative modeling
+# The script for fully automated comparative modeling with Loop refinement
 # Adapted from MODELLER manual
 
 from modeller import *
